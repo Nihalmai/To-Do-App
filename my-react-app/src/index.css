@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .To-Do-List {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and Add Button */
+  .To-Do-List input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .To-Do-List .add-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .To-Do-List .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Task List */
+  ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  li {
+    background-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 16px;
+    color: #555555;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  /* Task Buttons */
+  button {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button {
+    color: #e53935;
+    border-color: #e53935;
+  }
+  
+  .delete-button:hover {
+    background-color: #ffebee;
+  }
+  
+  .up-button {
+    color: #1e88e5;
+    border-color: #1e88e5;
+  }
+  
+  .up-button:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .down-button {
+    color: #43a047;
+    border-color: #43a047;
+  }
+  
+  .down-button:hover {
+    background-color: #e8f5e9;
+  }
+  
